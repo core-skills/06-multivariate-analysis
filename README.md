@@ -7,11 +7,13 @@ The aim of today's session will be to generalize the concepts for unidimensional
 You should aim to understand the similarities and differences between univariate and multivariate data settings (you'll still need to be able to apply EDA on multivariate data for example). You should also aim to understand the basis of dimensionality reductions, execute measures of correlations, as well as understanding when correlations might be spurious.
 
 ## Pre-session Reading & Resources
-No pre-reading for this session.
 
-Topics that we'll be discussing in today's workshop include: 
+Topics that we'll be discussing in today's workshop include:
+
 [sklearn.linear_model.LinearRegression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+
 [Robust Regression](http://scikit-learn.org/stable/modules/linear_model.html#robustness-regression-outliers-and-modeling-errors)
+
 Template Regression:  I haven't found a good explanation of this without lots of maths appearing.  But if you're comfortable with linear algebra then this is an example of "basis function" regression.  We'll be discussing this on the whiteboard during the workshop, using the idea that a linear system is one where the whole is literally the sum of the parts. When we solve the linear system then the coefficients in linear regression are how much of each part is present, and the parts don't have to be simple variables like "x" or "y" they can be squiggly lines that represent components that we believe we can decompose our observations into.  These components are represented as vectors and can take on any shapes we want.
 
 [Principal Component Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html)
