@@ -9,7 +9,7 @@ You should aim to understand the similarities and differences between univariate
 ## Pre-session Reading & Resources
 No pre-reading for this session.
 
-*Extension reading - we won't cover this in class but it's worthwhile and relevant*
+*Extension reading:*
 
 Tyler Vigen has an amusing site which finds spurious correlations in US statistical data (covered in the [Harvard Business Review](https://hbr.org/2015/06/beware-spurious-correlations). Have a play here: http://www.tylervigen.com/spurious-correlations
 
