@@ -49,7 +49,7 @@ def _initialise_randomstate(seed):
 
 def _draw_sulphur_observations(count):
     rs = _initialise_randomstate(7)
-    # draw 50 sulphur observations from a uniform distribution of
+    # draw "count" sulphur observations from a uniform distribution of
     # sulphur percentages between 0.15% and 1.35%
     sulphur_percent = rs.uniform(0.15, 1.35, count)
     return sulphur_percent
@@ -208,7 +208,21 @@ def gaussian(X, height, x_position, standard_deviation):
     return height * math.e**(-(X - x_position)**2 / 2 / standard_deviation**2)
 
 class MultichannelXAxis:
-    """Immutable object for containing x-axis properties."""
+    """Set up an X axis for isntrument
+
+    This object is set up with three inputs, min_x is the minimum value
+    on the axis.  In the example I've chosen 5.  The max_x
+    value is the highest value on the x axis, and spacing is
+    the x spacing between channels.  In the example I've chosen
+    a max_x of 90 and spacing of 0.2.  The unit is two-theta
+    degrees, and this unit (and the axis values) come from the
+    world of x-ray diffraction (XRD).  We're describing the x-axis
+    of a low resolution XRD instrument.
+
+    The object's as_vector method can return the x_axis as an array
+    of numbers using numpy's linspace method, which we've already used
+    for plotting and other purposes.
+    """
 
     def __init__(self, min_x, max_x, spacing):
         self._min = min_x
@@ -269,6 +283,14 @@ def _apply_convolution_kernals(x_axis_vector, intensity, two_theta_angle,
                                  fwhm)
 
 def create_templates_matrix():
+    """Create templates for four test pure components.
+
+    This creates templates for quartz, dilithium, kryptonite and
+    unobtainium, in that order.  The templates are returned
+    in an array where the first column is quartz, and the last is
+    unobtainium.  If you plot them, you'll see gently varying 
+    squiggly lines.
+    """
     # Create a templates matrix containing space for four templates, plus
     # a column of ones.
     x_axis = MultichannelXAxis(5, 90, 0.2)
