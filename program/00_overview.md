@@ -11,15 +11,13 @@
 
 1. Perform multivariate Exploratory Data Analysis (EDA).
 2. Analyse central tendency, dispersion and correlations.
-3. Practice multivariate techniques: principal component analysis (PCA),
-   multi-dimensional scaling (MDS),
-   self-organising maps (SOM/SOFM) and clustering.
+3. Practice unsupervised learning: principal component analysis (PCA) and clustering.
 
 ## Learning Outcomes
 
 1. Understand the differences between univariate and multivariate data and apply multivariate techniques and EDA.
 2. Understand the basis of dimensionality reduction.
-3. Execute measures of correlations.
+3. Apply k-means clustering.
 4. Critique whether a correlation is spurious.
 5. Identify if the process used in the activities is reproducible.
 3. Understand the impact of missing data and recall practical solutions to work with incomplete data sets.
