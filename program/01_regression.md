@@ -31,7 +31,7 @@ Open [am1_more_regression](../notebooks/am1_more_regression.ipynb) and start Exe
 
 Continue Exercise 1 in [am1_more_regression](../notebooks/am1_more_regression.ipynb).
 
-| :triangular_flag_on_post: If you finish this section, start the next section. After 10 minutes, we will go through the section on using scikit-learn to fit a robust regression model as a group. |
+| :triangular_flag_on_post: If you finish this section, try the Bonus questions! After 10 minutes, we will go through the section on using scikit-learn to fit a robust regression model as a group. |
 | ------------------------------------------------------------ |
 
 
@@ -76,13 +76,29 @@ In this general case we solve for the &beta; regression coefficients (there are 
 
 The techniques we will cover today work on these higher-dimensional data. For higher dimensional data it can be difficult to visualize how to fit a *linear model* to our data.
 
-| :triangular_flag_on_post: Takeaway: Linear model: Each &beta;x is a piece of the model, and when we sum up the pieces (additivity), we get the whole model. |
+| :triangular_flag_on_post: Takeaway: A linear model consists of pieces, &beta;x, that when we sum up the pieces (additivity), we get the whole model. |
 | ------------------------------------------------------------ |
 
 
 ### Validating a Multivariate Regression Model
 
+There are a number of measures or approaches that can be used to carry out the validation including:
+
+* Residual analysis
+* Coefficient of multiple determination (R<sup>2</sup>)
+* Adjusted (R<sup>2</sup><sub>a</sub>)
+* Statistical tests
+
+Care should be taken when interpreting R<sup>2</sup> alone as it can be artifically inflated simply by increasing the number of explanatory variables. The adjusted measure, (R<sup>2</sup><sub>a</sub>), takes into account the increase in complexity due to multiple explanatory variables.
+
 ### Analysing the statistical results
+
+Not all of the packages we have been using provide statistical summaries to help us decide upon feature and model selection.
+
+The ```statsmodels.api``` package provides a good statistical summary of regression models that can be useful to analyse the model.
+
+A good demonstration can be found here
+[Ordinary Least Squares](https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html). 
 
 ### Missing data
 
@@ -99,7 +115,7 @@ The explanatory variables, x, in the general linear model can be numbers or func
 
 y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x<sub>1</sub> + &beta;<sub>1</sub>x<sub>2</sub> + ... + &beta;<sub>i</sub>x<sub>i</sub> + &beta;<sub>N</sub>x<sub>N</sub>
 
-We have already seen a case where the explanatory variables are *basis functions* when we discussed polynomial regression. The x can represent a range of functions, and in this example the explanatory variables represent *kernel* functions. Do not worry too much about what the kernel function is; the key thing in this type of regression problem is that we know what these functions look like.  What we are interested in is understanding how much (&beta;) of each is present in our observations (y).
+We have already seen a case where the explanatory variables are *basis functions* when we discussed polynomial regression. The x can represent a range of functions, and in the example we will be doing the explanatory variables represent *kernel* functions. Do not worry too much about what the kernel function is; the key thing in this type of regression problem is that we know what these functions look like.  What we are interested in is understanding how much (&beta;) of each is present in our observations (y).
 
 The example we will use is spectral data where we have a good understanding of the spectral response (x) of each component (&beta;x) that contributes to our overall observations (y). What we would like to solve for is how much (&beta;) of each component is present.
 
