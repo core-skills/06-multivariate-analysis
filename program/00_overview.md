@@ -33,8 +33,8 @@
 | 12:00 | 13:00 | *Lunch*                                |
 | 13:00 | 14:30 | [**Clustering and High-D Regression**] |
 | 14:30 | 15:00 | *Afternoon Tea*                        |
-| 15:00 | 15:20 | [**Partial Least Squares**]            |
-| 15:20 | 16:30 | *Apply to your own Problem*            |
+| 15:00 | 15:30 | [**Partial Least Squares**]            |
+| 15:30 | 16:30 | *Apply to your own Problem*            |
 | 16:30 | 16:45 | [**Closeout**]                         |
 
 [**Missing Data & More Regression**]: ./01_regression.md

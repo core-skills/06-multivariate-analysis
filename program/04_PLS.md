@@ -24,7 +24,7 @@ Both PLS and PCA regressions defines new, uncorrelated variables (components) as
 | 20 min |
 | ------ |
 
-Open [am2-PLS.ipynb](../notebooks/am2-PLS.ipynb) and go through the notebook.
+Open [am2-PLS.ipynb](../notebooks/am2_PLS.ipynb) and go through the notebook.
 
 [Overview](./00_overview.md) |
 [More Regression](./01_regression.md) |

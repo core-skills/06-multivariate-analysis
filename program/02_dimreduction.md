@@ -73,7 +73,7 @@ You can find an in-depth and interactive discussion about t-SNE and its paramete
 | 25 min |
 | ------ |
 
-Open [am2-dimreduction.ipynb](../notebooks/am2-dimreduction.ipynb) and go through the notebook.
+Open [am2_dimreduction.ipynb](../notebooks/am2_dimreduction.ipynb) and go through the notebook.
 
 [Overview](./00_overview.md) |
 [More Regression](./01_regression.md) |
