@@ -13,7 +13,7 @@ The aim of clustering is to group a set of observations based on similarities. T
 
 ## Clustering background
 
-| 20 min |
+| 15 min |
 | ------ |
 
 The aim of clustering is to group a set of observations based on similarities. There are a substantial number of techniques that have been developed to group data into clusters.
@@ -62,7 +62,7 @@ The first exercise consists of two examples of applying k-means clustering to PC
 | :triangular_flag_on_post: Is everyone up to speed? How are people going? |
 | ------------------------------------------------------------------------ |
 
-| 5 min  |
+| 10 min  |
 | ------ |
 
 ## Exercise 2: Principal Components Regression
@@ -70,7 +70,9 @@ The first exercise consists of two examples of applying k-means clustering to PC
 | 30 min |
 | ------ |
 
-The second exercise is to apply principal components regression to the Octane dataset. As part of this exercise, we will revisit model validation.
+The second exercise is to apply principal components regression to the Octane dataset. 
+
+As part of this exercise, we will revisit model validation. See the [pm1-linear-models-II_filled](../../05-simple-predictions/notebooks/pm1-linear-models-II_filled.ipynb) notebook for a refresh.
 
 Continue going through Exercise 2 in the notebook [pm1_clustering.ipynb](../notebooks/pm1_clustering.ipynb).
 

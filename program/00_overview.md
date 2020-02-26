@@ -27,7 +27,7 @@
 | Start | End   | Agenda                                 |
 | -----:|:----- | -------------------------------------- |
 | 08:30 | 08:45 | Q&A, Issues & Announcements            |
-| 08:45 | 10:00 | [**Missing Data & More Regression**]   |
+| 08:45 | 10:00 | [**More Regression**]   |
 | 10:00 | 10:30 | *Morning Tea*                          |
 | 10:30 | 12:00 | [**Dimensionality Reduction**]         |
 | 12:00 | 13:00 | *Lunch*                                |
@@ -37,7 +37,7 @@
 | 15:30 | 16:30 | *Apply to your own Problem*            |
 | 16:30 | 16:45 | [**Closeout**]                         |
 
-[**Missing Data & More Regression**]: ./01_regression.md
+[**More Regression**]: ./01_regression.md
 
 [**Dimensionality Reduction**]: ./02_dimreduction.md
 

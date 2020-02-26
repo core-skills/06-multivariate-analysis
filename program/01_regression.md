@@ -34,8 +34,6 @@ Continue Exercise 1 in [am1_more_regression](../notebooks/am1_more_regression.ip
 | :triangular_flag_on_post: If you finish this section, try the Bonus questions! After 10 minutes, we will go through the section on using scikit-learn to fit a robust regression model as a group. |
 | ------------------------------------------------------------ |
 
-
-
 ## Multivariate regression
 
 | 15 min |
@@ -98,13 +96,14 @@ Not all of the packages we have been using provide statistical summaries to help
 The ```statsmodels.api``` package provides a good statistical summary of regression models that can be useful to analyse the model.
 
 A good demonstration can be found here
-[Ordinary Least Squares](https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html). 
+[Ordinary Least Squares](https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html).
 
 ### Missing data
 
 In some cases, we have missing data that will actually bias our regression results. If possible, we would like to try and account for this.
 
 [6 Different Ways to Compensate for Missing Values In a Dataset (Data Imputation with examples)](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779)
+
 
 ## Basis function regression using templates
 
