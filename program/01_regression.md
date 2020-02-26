@@ -20,7 +20,7 @@ This morning we recommend working through these first two exercises using pair p
 
 Open [am1_more_regression](../notebooks/am1_more_regression.ipynb) and start Exercise 1 with your partner. 
 
-| :triangular_flag_on_post: If you finish this section, start the next section. After 10 minutes, we will go this section on using Seaborn to fit a linear regression model as a group.|
+| :triangular_flag_on_post: If you finish this section, start the next section.|
 | ------------------------------------------------------------ |
 
 
@@ -31,7 +31,7 @@ Open [am1_more_regression](../notebooks/am1_more_regression.ipynb) and start Exe
 
 Continue Exercise 1 in [am1_more_regression](../notebooks/am1_more_regression.ipynb).
 
-| :triangular_flag_on_post: If you finish this section, try the Bonus questions! After 10 minutes, we will go through the section on using scikit-learn to fit a robust regression model as a group. |
+| :triangular_flag_on_post: If you finish this section, try the Bonus questions!  |
 | ------------------------------------------------------------ |
 
 ## Multivariate regression
