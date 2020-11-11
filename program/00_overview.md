@@ -24,18 +24,19 @@
 
 ## Schedule
 
-| Start | End   | Agenda                                 |
-| -----:|:----- | -------------------------------------- |
-| 08:30 | 08:45 | Q&A, Issues & Announcements            |
-| 08:45 | 10:00 | [**More Regression**]   |
-| 10:00 | 10:30 | *Morning Tea*                          |
-| 10:30 | 12:00 | [**Dimensionality Reduction**]         |
-| 12:00 | 13:00 | *Lunch*                                |
-| 13:00 | 14:30 | [**Clustering and High-D Regression**] |
-| 14:30 | 15:00 | *Afternoon Tea*                        |
-| 15:00 | 15:30 | [**Partial Least Squares**]            |
-| 15:30 | 16:30 | *Apply to your own Problem*            |
-| 16:30 | 16:45 | [**Closeout**]                         |
+|          AWST | AEST          | Agenda                                 |
+| -------------:|:------------- | -------------------------------------- |
+| 07:30 - 07:45 | 09:30 - 09:45 | Q&A, Issues & Announcements            |
+| 07:45 - 09:15 | 09:45 - 11:15 | [**More Regression**]                  |
+| 09:15 - 09:30 | 11:15 - 11:30 | *Morning Tea*                          |
+| 09:30 - 11:00 | 11:30 - 13:00 | [**Dimensionality Reduction**]         |
+| 11:00 - 11:45 | 13:00 - 13:45 | *Lunch*                                |
+| 11:45 - 13:15 | 13:45 - 15:15 | [**Clustering and High-D Regression**] |
+| 13:15 - 13:30 | 15:15 - 15:30 | *Afternoon Tea*                        |
+| 13:30 - 13:50 | 15:30 - 15:50 | [**Partial Least Squares**]            |
+| 13:50 - 14:45 | 15:50 - 16:45 | **Apply to your own Problem**          |
+| 14:45 - 15:00 | 16:45 - 17:00 | [**Closeout**]                         |
+
 
 [**More Regression**]: ./01_regression.md
 
