@@ -1,6 +1,6 @@
-# Core skills program - week 4 - multivariate analysis and dimensionality reduction
+# CORE Skills Data Science Springboard - Day 6 - Multivariate analysis and dimensionality reduction
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/core-skills/04-multivariate-analysis.git/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/core-skills/06-multivariate-analysis.git/master?urlpath=/lab/)
 
 The aim of today's session will be to generalize the concepts for unidimensional data we learnt about last week to multidimensional data types.  We'll also introduce approaches to reduce the dimensionality of a dataset - that is (a) how we can identify when a dataset can be represented accurately with a smaller number of variables, and (b) how we can identify the variables that contain the most information, with techniques like Principal Components Analysis (PCA) and clustering.  We'll touch on applying regression on dimension-reduced data, and Partial Least Squares Regression (PLSR, and also called Projection to Latent Structures).  These multivariate methods can be very powerful in situations where you need to create models with many variables, but you have few observations to work with and it happens that the variables are correlated.  This is often the case with datasets from multichannel instruments. 
 
